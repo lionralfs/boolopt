@@ -1,0 +1,26 @@
+{
+  "name": "boolopt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/boolopt.umd.js",
+  "module": "dist/boolopt.modern.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node test/index.mjs",
+    "build": "microbundle src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionralfs/boolopt.git"
+  },
+  "keywords": [],
+  "author": "Lion Ralfs <lion.ralfs@gmail.com> (https://github.com/lionralfs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lionralfs/boolopt/issues"
+  },
+  "homepage": "https://github.com/lionralfs/boolopt#readme",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
