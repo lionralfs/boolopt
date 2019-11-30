@@ -1,5 +1,7 @@
 # boolopt (boolean options)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lionralfs/boolopt.svg)](https://greenkeeper.io/)
+
 A tiny package to get and set boolean options using bitwise operations.
 
 ## Installation
