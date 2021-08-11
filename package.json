@@ -23,5 +23,10 @@
   "homepage": "https://github.com/lionralfs/boolopt#readme",
   "devDependencies": {
     "microbundle": "^0.13.3"
-  }
+  },
+  "files": [
+    "index.d.ts",
+    "dist/",
+    "src/"
+  ]
 }
