@@ -5,9 +5,10 @@
   "main": "dist/boolopt.umd.js",
   "module": "dist/boolopt.modern.mjs",
   "type": "module",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "node test/index.mjs",
-    "build": "microbundle src/index.mjs"
+    "build": "microbundle --generateTypes=false src/index.mjs"
   },
   "repository": {
     "type": "git",
