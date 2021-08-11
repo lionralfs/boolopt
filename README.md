@@ -1,7 +1,5 @@
 # boolopt (boolean options)
 
-
-
 A tiny package to get and set boolean options using bitwise operations.
 
 ## Installation
@@ -15,7 +13,7 @@ npm install --save boolopt
 Calling boolopt returns an object with the methods `get` and `set` on it.
 
 ```js
-import boolopt from "boolopt";
+import boolopt from 'boolopt';
 
 // initialize the values (omitting them sets them to 0)
 const { get, set } = boolopt(false, false, true);

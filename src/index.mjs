@@ -6,9 +6,13 @@ export default (...values) => {
   let value = values.reduce((acc, v, i) => acc + (v << i), 0);
 
   return {
-    get: i => !!(value & (1 << i)),
+    get: (i) => !!(value & (1 << i)),
     set: (i, v) => {
-      value |= 1 << i;
-    }
+      if (v) {
+        value |= 1 << i;
+      } else {
+        value &= ~(1 << i);
+      }
+    },
   };
 };
