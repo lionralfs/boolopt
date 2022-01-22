@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/lionralfs/boolopt#readme",
   "devDependencies": {
-    "microbundle": "^0.13.3"
+    "microbundle": "^0.14.2"
   },
   "files": [
     "index.d.ts",
