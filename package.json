@@ -2,13 +2,19 @@
   "name": "boolopt",
   "version": "0.2.0",
   "description": "",
-  "main": "dist/boolopt.umd.js",
-  "module": "dist/boolopt.modern.mjs",
   "type": "module",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/boolopt.cjs",
+    "default": "./dist/boolopt.modern.js"
+  },
+  "main": "./dist/boolopt.cjs",
+  "module": "./dist/boolopt.module.js",
+  "umd:main": "./dist/boolopt.umd.js",
   "typings": "index.d.ts",
   "scripts": {
-    "test": "node test/index.mjs",
-    "build": "microbundle --generateTypes=false src/index.mjs"
+    "test": "node test/index.js",
+    "build": "rm -rf dist && microbundle --generateTypes=false"
   },
   "repository": {
     "type": "git",
@@ -22,7 +28,7 @@
   },
   "homepage": "https://github.com/lionralfs/boolopt#readme",
   "devDependencies": {
-    "microbundle": "^0.13.3"
+    "microbundle": "^0.14.2"
   },
   "files": [
     "index.d.ts",
