@@ -1,5 +1,5 @@
 import assert from 'assert';
-import boolopt from '../src/index.mjs';
+import boolopt from '../src/index.js';
 
 {
   const { get } = boolopt();

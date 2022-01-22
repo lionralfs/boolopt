@@ -3,12 +3,12 @@
   "version": "0.2.0",
   "description": "",
   "main": "dist/boolopt.umd.js",
-  "module": "dist/boolopt.modern.mjs",
+  "module": "dist/boolopt.modern.js",
   "type": "module",
   "typings": "index.d.ts",
   "scripts": {
-    "test": "node test/index.mjs",
-    "build": "microbundle --generateTypes=false src/index.mjs"
+    "test": "node test/index.js",
+    "build": "microbundle --generateTypes=false src/index.js"
   },
   "repository": {
     "type": "git",
